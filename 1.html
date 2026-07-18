@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+</head>
+<body>
+
+    <h1>About Me</h1>
+    
+    <h2>My Background</h2>
+    <p>Hello! I am a passionate student currently learning the fundamentals of web development. Building websites allows me to combine logic with visual creativity.</p>
+    
+    <h2>My Goals</h2>
+    <p>My primary goal is to master frontend technologies like HTML, CSS, and JavaScript. Eventually, I want to build full-stack web applications that solve real-world problems.</p>
+    <p>I believe that consistent practice and building hands-on projects is the best way to grow as a developer.</p>
+
+    <hr>
+
+    <h2>HTML Formatting Tags Demo</h2>
+    <p>This text contains a <b>bold word</b> using the b tag.</p>
+    <p>This text highlights an <strong>important word</strong> using the strong tag.</p>
+    <p>This text contains an <i>italicized word</i> using the i tag.</p>
+    <p>This text contains an <em>emphasized word</em> using the em tag.</p>
+    <p>This text contains an <u>underlined word</u> using the u tag.</p>
+    <p>This text contains a <mark>highlighted word</mark></p>
+    <p>Mathematical formula example: x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup> (using the sup tag).</p>
+    <p>Chemical formula example: H<sub>2</sub>O is water (using the sub tag).</p>
+
+    <hr>
+
+    <h2>Programming Languages I Know/Want to Learn</h2>
+    <ol>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Java</li>
+        <li>C++</li>
+        <li>Ruby</li>
+    </ol>
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Playing Cricket</li>
+        <li>Playing Instruments</li>
+        <li>Travelling</li>
+        <li>Photography</li>
+        <li>Traveling</li>
+    </ul>
+
+    <hr>
+
+    <h2>Useful Links</h2>
+    <p><a href="https://google.com" target="_blank">Visit Google</a></p>
+    <p><a href="https://youtube.com" target="_blank">Watch YouTube</a></p>
+    <p><a href="https://sitpune.edu.in" target="_blank">My College Website</a></p>
+
+    <hr>
+
+    <h2>Image Gallery</h2>
+    <img src="image.png" alt="Symbiosis Institute Of Technology" width="300" height="200">
+    <img src="image2.png" alt="Symbiosis Entry Gate" width="300" height="200">
+
+    <hr>
+
+    <h2>Student Records</h2>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Roll No</th>
+                <th>Name</th>
+                <th>Course</th>
+                <th>Mark</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Alice Johnson</td>
+                <td>Web Development</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Bob Smith</td>
+                <td>Data Science</td>
+                <td>88</td>
+            </tr>
+            <tr>
+                <td>103</td>
+                <td>Charlie Davis</td>
+                <td>Cyber Security</td>
+                <td>92</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <h2>Student Registration Form</h2>
+    <form action="#" method="POST">
+        <p>
+            <label for="reg_name">Name:</label>
+            <input type="text" id="reg_name" name="student_name" required>
+        </p>
+        
+        <p>
+            <label for="reg_email">Email:</label>
+            <input type="email" id="reg_email" name="student_email" required>
+        </p>
+        
+        <p>
+            <label for="reg_password">Password:</label>
+            <input type="password" id="reg_password" name="student_password" required>
+        </p>
+        
+        <p>
+            <label for="reg_mobile">Mobile:</label>
+            <input type="tel" id="reg_mobile" name="student_mobile" required>
+        </p>
+        
+        <p>
+            Gender:
+            <input type="radio" id="gender_male" name="gender" value="male">
+            <label for="gender_male">Male</label>
+            <input type="radio" id="gender_female" name="gender" value="female">
+            <label for="gender_female">Female</label>
+            <input type="radio" id="gender_other" name="gender" value="other">
+            <label for="gender_other">Other</label>
+        </p>
+        
+        <p>
+            Hobbies:
+            <input type="checkbox" id="form_hobby_cricket" name="hobbies" value="cricket">
+            <label for="form_hobby_cricket">Playing Cricket</label>
+            
+            <input type="checkbox" id="form_hobby_music" name="hobbies" value="instruments">
+            <label for="form_hobby_music">Playing Instruments</label>
+            
+            <input type="checkbox" id="form_hobby_travel" name="hobbies" value="travel">
+            <label for="form_hobby_travel">Travelling</label>
+        </p>
+
+        <p>
+            <label for="country">Country:</label>
+            <select id="country" name="student_country">
+                <option value="">--Select Country--</option>
+                <option value="IN">India</option>
+                <option value="US">United States</option>
+                <option value="UK">United Kingdom</option>
+                <option value="CA">Canada</option>
+            </select>
+        </p>
+        
+        <p>
+            <label for="course">Course:</label>
+            <select id="course" name="student_course">
+                <option value="">--Select Course--</option>
+                <option value="btech_cs">B.Tech Computer Science</option>
+                <option value="btech_it">B.Tech Information Technology</option>
+                <option value="btech_ai">B.Tech AI & Data Science</option>
+            </select>
+        </p>
+        
+        <p>
+            <input type="submit" value="Submit Registration">
+        </p>
+    </form>
+
+    <hr>
+
+    <h2>Multimedia Showcase</h2>
+    
+    <h3>Audio Track</h3>
+    <audio controls>
+        <source src="Betiyaan - The Daughter Song _ Swasti Mehul [teS9NI4iL_Q].mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <h3>Video Clip</h3>
+    <video width="400" controls>
+        <source src="Symbiosis SIT Pune _ Campus Tour.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+</body>
+</html>
